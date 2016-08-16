@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/testSpring/lib/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-aop-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-aspects-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-beans-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-context-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-core-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-expression-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-instrument-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-instrument-tomcat-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-jdbc-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-jms-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-messaging-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-orm-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-oxm-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-test-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-tx-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-web-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-webmvc-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-webmvc-portlet-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/testSpring/lib/spring-websocket-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/mybatis-3.2.8.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.39.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
